@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Primary Meta Tags -->
+  <title>Martin Emad Maher | AI Engineer | Machine Learning | Computer Vision</title>
+  <meta name="title" content="Martin Emad Maher | AI Engineer | Machine Learning | Computer Vision">
+  <meta name="description" content="Portfolio of Martin Emad Maher, an AI Engineer specializing in Machine Learning, Deep Learning, Computer Vision, NLP, Speech Recognition, and AI-powered applications.">
+  <meta name="keywords" content="Martin Emad Maher, AI Engineer, Machine Learning, Computer Vision, Deep Learning, YOLO, NLP, Speech Recognition, Python, Google Gemini API, FastAPI, Streamlit, DEPI">
+  <meta name="author" content="Martin Emad Maher">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://martin22308.github.io/portfolio/">
+  <meta property="og:title" content="Martin Emad Maher | AI Engineer | Machine Learning | Computer Vision">
+  <meta property="og:description" content="Portfolio of Martin Emad Maher, an AI Engineer specializing in Machine Learning, Deep Learning, Computer Vision, NLP, Speech Recognition, and AI-powered applications.">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Martin Emad Maher | AI Engineer | Machine Learning | Computer Vision">
+  <meta property="twitter:description" content="Portfolio of Martin Emad Maher, an AI Engineer specializing in Machine Learning, Deep Learning, Computer Vision, NLP, Speech Recognition, and AI-powered applications.">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2307080B'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='monospace' font-weight='bold' font-size='50' fill='%23E5A93C'>M</text></svg>">
+</head>
+<body>
+
+  <!-- Ambient Interactive Canvas Background -->
+  <div class="background-canvas-container" aria-hidden="true">
+    <canvas id="neural-canvas"></canvas>
+  </div>
+  <div class="ambient-gradient-overlay" aria-hidden="true"></div>
+
+  <div class="app-wrapper">
+    <!-- Sticky Navigation Bar -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-container">
+        <a href="#home" class="nav-brand" aria-label="Martin Emad Maher - Home">
+          <div class="brand-symbol">M</div>
+          <div>
+            <span>Martin Emad Maher</span>
+          </div>
+        </a>
+
+        <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#expertise" class="nav-link">Expertise</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#flagship" class="nav-link">Flagship</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#artifacts" class="nav-link">Artifacts</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#certifications" class="nav-link">Certifications</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="assets/Martin_Emad_Maher_CV.pdf" download="Martin_Emad_Maher_CV.pdf" class="btn btn-outline btn-sm">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Resume (CV)
+          </a>
+        </div>
+
+        <button class="mobile-menu-toggle" id="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- 1. Hero Section -->
+      <section class="hero-section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <div class="hero-status-row">
+              <span class="badge badge-status">
+                <span class="status-dot"></span>
+                <span id="hero-status">Available for AI Engineer & ML Roles</span>
+              </span>
+            </div>
+
+            <h1 class="hero-name" id="hero-name">Martin Emad Maher</h1>
+            <p class="hero-title" id="hero-title">AI Engineer | Machine Learning | Computer Vision | NLP</p>
+            <p class="hero-tagline" id="hero-tagline">
+              Building intelligent, real-world AI solutions across Computer Vision, Machine Learning, NLP, Speech Recognition, and AI-powered applications.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#flagship" class="btn btn-primary">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                View Flagship Project
+              </a>
+              <a href="#projects" class="btn btn-outline">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                All Projects
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                Contact Me
+              </a>
+              <a href="https://github.com/martin22308" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="GitHub Profile">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+              <a href="http://www.linkedin.com/in/martin-emad-39875429b" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="LinkedIn Profile">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                LinkedIn
+              </a>
+            </div>
+
+            <div class="hero-meta-strip">
+              <div class="meta-item">
+                <span class="meta-item-num">5+</span>
+                <span class="meta-item-label">AI Engineering Domains</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-item-num">DEPI</span>
+                <span class="meta-item-label">Microsoft ML Track Graduate</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-item-num">10+</span>
+                <span class="meta-item-label">Industry Certifications</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="terminal-card">
+              <div class="terminal-header">
+                <span class="terminal-dot red"></span>
+                <span class="terminal-dot yellow"></span>
+                <span class="terminal-dot green"></span>
+                <span class="terminal-title">martin_emad@ai-core:~$</span>
+              </div>
+              <div class="terminal-body">
+                <div class="terminal-line">
+                  <span class="terminal-prompt">$</span> <span>ai.load_specializations()</span>
+                </div>
+                <div class="terminal-line terminal-highlight">
+                  <span>→ Computer Vision (YOLO, CNN, OpenCV)</span>
+                </div>
+                <div class="terminal-line terminal-highlight">
+                  <span>→ NLP & Speech Recognition (Bilingual)</span>
+                </div>
+                <div class="terminal-line terminal-highlight">
+                  <span>→ Foundation APIs (Google Gemini)</span>
+                </div>
+                <div class="terminal-line terminal-highlight">
+                  <span>→ Production Serving (FastAPI, Streamlit)</span>
+                </div>
+                <div class="terminal-line" style="margin-top: 14px;">
+                  <span class="terminal-prompt">$</span> <span>system.get_flagship_project()</span>
+                </div>
+                <div class="terminal-line terminal-success">
+                  <span>✔ "Urban AI Guardian" (5 YOLO models online)</span>
+                </div>
+                <div class="terminal-line" style="margin-top: 14px;">
+                  <span class="terminal-prompt">$</span> <span>status.check_availability()</span>
+                </div>
+                <div class="terminal-line text-gold">
+                  <span>● Active: Open for AI / ML Engineer Roles</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. About Me Section -->
+      <section class="section section-alt" id="about">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Professional Background</span>
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Bridging academic rigor with practical machine learning and production-oriented artificial intelligence systems.</p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text-content">
+              <p>
+                I am a final-year <strong>Bachelor of Artificial Intelligence Technology</strong> student at <strong>Helwan International Technological University</strong> in Cairo, Egypt. My focus is rooted in building intelligent, real-world AI applications that solve concrete operational challenges rather than existing solely as conceptual prototypes.
+              </p>
+              <p>
+                Throughout my academic and practical trajectory, I have accumulated deep hands-on experience developing end-to-end solutions across <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, <strong>Natural Language Processing (NLP)</strong>, and <strong>Speech Recognition</strong>. My work includes architecting multi-model object detection systems with YOLO, creating bilingual conversational agents, and deploying vision-based intelligence integrated with modern foundation model APIs such as Google Gemini.
+              </p>
+              <p>
+                As a graduate of the selective <strong>Digital Egypt Pioneers Initiative (DEPI)</strong> in the Microsoft Machine Learning Engineer track, I co-developed the flagship <em>Urban AI Guardian</em> smart-city monitoring platform, leading model training pipelines, alert logic, and high-performance FastAPI/Streamlit microservices. I approach every project with strict engineering discipline: thorough data preprocessing, systematic feature engineering, and uncompromising model evaluation.
+              </p>
+            </div>
+
+            <div class="about-highlights-card">
+              <h3 class="about-card-title">
+                <svg class="icon text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                Core Engineering Philosophy
+              </h3>
+              
+              <div class="about-attributes-list">
+                <div class="attr-item">
+                  <div class="attr-icon">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  </div>
+                  <div class="attr-text">
+                    <strong>End-to-End Delivery</strong>
+                    <span>From raw data collection and labeling to model training, evaluation, and backend API integration.</span>
+                  </div>
+                </div>
+
+                <div class="attr-item">
+                  <div class="attr-icon">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  </div>
+                  <div class="attr-text">
+                    <strong>Multi-Model Computer Vision</strong>
+                    <span>Specialized in parallel YOLO architectures for real-time video stream detection and spatial classification.</span>
+                  </div>
+                </div>
+
+                <div class="attr-item">
+                  <div class="attr-icon">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  </div>
+                  <div class="attr-text">
+                    <strong>Agile & Cross-Functional Teamwork</strong>
+                    <span>Experienced in collaborative version-controlled environments with structured engineering workflows.</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="languages-box">
+                <div class="languages-title">Language Proficiency</div>
+                <div class="languages-row">
+                  <div class="lang-pill">
+                    <strong>Arabic</strong>
+                    <span>Native</span>
+                  </div>
+                  <div class="lang-pill">
+                    <strong>English</strong>
+                    <span>Advanced</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Core Expertise Section -->
+      <section class="section" id="expertise">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Specialized Domains</span>
+            <h2 class="section-title">Core Expertise</h2>
+            <p class="section-subtitle">Targeted technical specializations backed by proven project implementations and official certifications.</p>
+          </div>
+
+          <div class="expertise-grid" id="expertise-grid">
+            <!-- Dynamically populated from js/data.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Technical Skills Section -->
+      <section class="section section-alt" id="skills">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Technical Arsenal</span>
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Verified tools, programming languages, neural architectures, and data frameworks supported by official CV and credentials.</p>
+          </div>
+
+          <div class="skills-grid" id="skills-grid">
+            <!-- Dynamically populated from js/data.js -->
+          </div>
+
+          <div id="soft-skills-container">
+            <!-- Populated from js/data.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Flagship Project Deep Dive: Urban AI Guardian (Tier 1) -->
+      <section class="section" id="flagship">
+        <div class="container" id="urban-guardian-case-study">
+          <!-- Dynamically populated from js/data.js -->
+        </div>
+      </section>
+
+      <!-- 6. Featured Projects Showcase (Tier 2 & Tier 3) -->
+      <section class="section section-alt" id="projects">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Portfolio Showcase</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A curated portfolio of real-world intelligent systems, computer vision detectors, healthcare robotics, and automated pipelines.</p>
+          </div>
+
+          <!-- Dynamic Category Filter Tabs -->
+          <div class="filter-tabs-container">
+            <button class="filter-btn active" data-filter="all">All Projects (9)</button>
+            <button class="filter-btn" data-filter="Computer Vision">Computer Vision</button>
+            <button class="filter-btn" data-filter="AI & NLP">AI, NLP & Robotics</button>
+            <button class="filter-btn" data-filter="Machine Learning">Machine Learning</button>
+            <button class="filter-btn" data-filter="Automation & IoT">Automation & IoT</button>
+          </div>
+
+          <div class="projects-grid" id="projects-grid">
+            <!-- Dynamically populated from js/data.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. Original Portfolio Artifacts & Presentation Slides Gallery -->
+      <section class="section" id="artifacts">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Extracted Visual History</span>
+            <h2 class="section-title">Portfolio Presentation Artifacts</h2>
+            <p class="section-subtitle">
+              High-resolution visual slides and project screenshots extracted directly from Martin Emad Maher's previous portfolio presentation (Black and Beige Minimal Professional Portfolio). Click any slide to zoom in Full HD.
+            </p>
+          </div>
+
+          <div class="slides-gallery-grid" id="slides-gallery-grid">
+            <!-- Dynamically populated from js/data.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. Experience Section -->
+      <section class="section section-alt" id="experience">
+        <div class="container">
+          <div class="section-header centered">
+            <span class="section-tag">Practical Track Record</span>
+            <h2 class="section-title">Experience & Practical Projects</h2>
+            <p class="section-subtitle">Practical engineering experience building real-world AI systems, combined with national technological initiatives and intensive specialized training.</p>
+          </div>
+
+          <div class="timeline-container" id="experience-timeline">
+            <!-- Dynamically populated from js/data.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. Education Section -->
+      <section class="section section-alt" id="education">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Academic Foundation</span>
+            <h2 class="section-title">Education</h2>
+            <p class="section-subtitle">Undergraduate academic credentials in Artificial Intelligence Technology.</p>
+          </div>
+
+          <div class="education-grid" id="education-grid">
+            <!-- Dynamically populated from js/data.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 9. Certifications & Training Section -->
+      <section class="section" id="certifications">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Verified Credentials</span>
+            <h2 class="section-title">Certifications & Training</h2>
+            <p class="section-subtitle">Accredited certifications from Microsoft, ITIDA, NTI, Cisco, HackerRank, Google, ITI, and Udemy.</p>
+          </div>
+
+          <div class="certifications-grid" id="certifications-grid">
+            <!-- Dynamically populated from js/data.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 10. Achievements Section -->
+      <section class="section section-alt" id="achievements">
+        <div class="container">
+          <div class="section-header centered">
+            <span class="section-tag">Technical Milestones</span>
+            <h2 class="section-title">Key Achievements</h2>
+            <p class="section-subtitle">Concrete milestones reflecting engineering rigor, competitive problem solving, and technical initiative.</p>
+          </div>
+
+          <div class="achievements-grid" id="achievements-grid">
+            <!-- Dynamically populated from js/data.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 11. Contact Section -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Initiate Collaboration</span>
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Available for full-time AI Engineer roles, Machine Learning engineering opportunities, and technical collaborations.</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-info-card">
+              <h3 class="contact-card-title">Direct Contact Information</h3>
+              <p class="contact-card-desc">
+                Feel free to reach out directly via email, phone, or connect on LinkedIn and GitHub. Verified contact channels supported by official resume.
+              </p>
+
+              <div class="contact-details-list">
+                <div class="contact-item">
+                  <div class="contact-left">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <div>
+                      <span class="contact-label">Email</span>
+                      <a href="mailto:ramizemad234@gmail.com" class="contact-value" id="contact-email">ramizemad234@gmail.com</a>
+                    </div>
+                  </div>
+                  <button class="copy-btn" data-copy-target="ramizemad234@gmail.com" title="Copy email address">Copy</button>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-left">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <div>
+                      <span class="contact-label">Phone</span>
+                      <a href="tel:+201278867936" class="contact-value" id="contact-phone">+20 127 886 7936</a>
+                    </div>
+                  </div>
+                  <button class="copy-btn" data-copy-target="+201278867936" title="Copy phone number">Copy</button>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-left">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <div>
+                      <span class="contact-label">Location</span>
+                      <span class="contact-value" id="contact-location">Cairo, Egypt (El Nozha 2)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-links-row">
+                <a href="http://www.linkedin.com/in/martin-emad-39875429b" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" id="contact-linkedin">
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  LinkedIn Profile
+                </a>
+                <a href="https://github.com/martin22308" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" id="contact-github">
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  GitHub Profile
+                </a>
+              </div>
+            </div>
+
+            <!-- Send Message UI Form -->
+            <div class="contact-form-card">
+              <h3 class="contact-card-title">Send a Direct Inquiry</h3>
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Full Name</label>
+                  <input type="text" id="form-name" class="form-input" placeholder="e.g. John Doe / Engineering Lead" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Email Address</label>
+                  <input type="email" id="form-email" class="form-input" placeholder="e.g. john@organization.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-subject" class="form-label">Subject</label>
+                  <input type="text" id="form-subject" class="form-input" placeholder="e.g. AI Engineer Opportunity / Technical Collaboration" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-message" class="form-label">Message Details</label>
+                  <textarea id="form-message" class="form-textarea" placeholder="Describe the role, project requirements, or opportunity..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                  Send Inquiry via Email
+                </button>
+
+                <p class="form-hint">
+                  Note: Clicking submit prepares a pre-filled email inquiry addressed directly to ramizemad234@gmail.com in your default mail application.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <div class="footer-brand">Martin Emad Maher</div>
+            <div class="footer-tagline">AI Engineer | Machine Learning | Computer Vision | NLP</div>
+          </div>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#expertise">Expertise</a>
+            <a href="#skills">Skills</a>
+            <a href="#flagship">Flagship</a>
+            <a href="#projects">Projects</a>
+            <a href="#artifacts">Artifacts</a>
+            <a href="#experience">Experience</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Martin Emad Maher. All rights reserved.</p>
+          <p>Engineered with modern vanilla web standards. Ready for GitHub Pages deployment.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <!-- Accessible Project Case Study Modal Dialog -->
+    <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-dialog">
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Case Study Dialog">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        <div class="modal-container" id="modal-container">
+          <!-- Populated dynamically by js/modal.js -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox Modal for Full Slide Zoom -->
+    <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Slide Lightbox">
+      <div class="lightbox-dialog">
+        <button class="lightbox-close-btn" id="lightbox-close-btn" aria-label="Close Lightbox">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        <div class="lightbox-img-wrapper">
+          <img src="" alt="" id="lightbox-img" class="lightbox-img">
+        </div>
+        <div class="lightbox-footer">
+          <span class="lightbox-caption" id="lightbox-caption">Portfolio Slide</span>
+          <span class="badge badge-gold">1920 × 1080 Full HD</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript Modules -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
